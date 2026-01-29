@@ -1,16 +1,22 @@
-public class Prism {
+public class prism {
     private int length;
     private int width;
     private int height;
 
-    public Prism(int side){
+    public prism(int side){
         length = side;
         width = side;
         height = side;
     }
 
+    public prism(){
+        length = 26;
+        width = 79;
+        height = 51;
+    }
 
-    public Prism(int length, int width, int height) {
+
+    public prism(int length, int width, int height) {
         this.length = length;
         this.width = width;
         this.height = height;
