@@ -11,5 +11,10 @@ public class Main {
         vc = new VowelCounter("aeiou");
         System.out.println(vc.getVowelCount());
 
+        NumberStringGenerator gen = new NumberStringGenerator(10);
+        System.out.println(gen.getNumberString());
+        System.out.println(gen.getBigNumCount());
+
+
     }
 }
